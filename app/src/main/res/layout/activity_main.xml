@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0sp"
+    android:scrollbarSize="25sp"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="343dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:singleLine="false"
+            android:text="You have tracked your calories for 10 days."
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="214dp"
+            android:layout_marginBottom="512dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/gym" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal"
+            android:singleLine="false"
+            android:text="THE ONLY BAD WORKOUT IS THE ONE YOU DIDN'T DO"
+            android:textAlignment="center"
+            android:textColor="#686868"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="360dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:singleLine="false"
+            android:text="You have bought a membership at Healthgenix, Jayanagar branch on 10th October 2020. "
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.718"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="343dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:singleLine="false"
+            android:text="Your membership at Healthgenix, Jayanagar branch will end at 10th November 2020 "
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="152dp"
+            android:layout_height="10dp"
+            android:layout_marginBottom="296dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.435"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@android:drawable/dialog_holo_dark_frame" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="152dp"
+            android:layout_height="10dp"
+            android:layout_marginBottom="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.435"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@android:drawable/dialog_holo_dark_frame" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="306dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/textbox"
+            android:backgroundTint="#000000"
+            android:text="GENERATE REPORT"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.294"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
