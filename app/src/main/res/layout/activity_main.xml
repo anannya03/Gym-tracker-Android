@@ -219,7 +219,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submitProfile"
         android:layout_width="363dp"
         android:layout_height="43dp"
         android:layout_marginStart="18dp"
