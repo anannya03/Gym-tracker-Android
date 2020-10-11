@@ -44,7 +44,7 @@ public class JoinUs extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 checkDataEntered();
-                openJoinUs();
+
             }
         });
 
@@ -128,6 +128,7 @@ public class JoinUs extends AppCompatActivity {
             if(password.getText().toString().length() < 9) {
                 password.setError("Minimum 8 characters");
             }
+            openJoinUs();
         }
 
     }
